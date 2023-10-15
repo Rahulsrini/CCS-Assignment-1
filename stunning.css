@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+} */
+/* .nav-list{
+    display: flex;
+    padding: 15px;
+}
+.nav-list-items{
+     padding-right: 40px;
+     font-weight: 600px;
+     font-family:Arial, Helvetica, sans-serif
+}
+
+.nav-list-items:hover{
+    text-decoration: underline solid 2.5px #8071D0;
+} */
+.button{
+    border-radius: 15px;
+    padding: 7px;
+    color:  #8071D0;
+    background-color: #FFD8DB;
+    border: 0;
+}
+
+.nav-button :hover{
+    background-color: pink;
+}
+.nav-button button{
+    width: 120px;
+    padding: 18px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.account:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bolder
+}
+.content{
+    float: right;
+}
+
+.content-items{
+    padding: 30px;
+}
+
+.content-items h1{
+    padding-left: 70px;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.para{
+    padding-left: 110px;
+    
+}
+
+.content-items-button{
+     padding-left: 100px;
+     padding-top: 20px;
+     display: flex;
+     
+}
+
+.button-account{
+    padding: 15px;
+    border-radius: 20px;
+    background-color:#5243c0;
+    color: #ffff;
+    border: 0;
+    width:125px;
+    font-weight: lighter;
+}
+.nav-button button{
+    width: 120px;
+    padding: 18px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+
+#button-new{
+    padding: 7px;
+    
+}
+
+
+.menu{
+    padding: 70px;
+    margin: 0px;
+
+}
+.menu-items{
+    width: 400px;
+    display: flex;
+  /*border: 3px solid silver ;  */
+    border-radius: 10px;
+    padding: 5px;
+    
+    /*box-shadow: 5px 3px 10px grey;*/
+   
+
+    
+}
+
+
+.menu-items{
+    width: 400px;
+    display: flex;
+    border: 3px solid silver ;  
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.menu-tick{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+
+.menu-content{
+    padding-right:50px ;
+    padding-top: 10px;
+    font-weight: 400px;
+}
+
+.menu-user{
+    padding-right: 25px;
+    padding-top: 6px;
+}
+
+.menu-date{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.6);  
+}
+
+.menu-button{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu-shape{
+    width: 30px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #FFD8DB;
+    
+}
+
+
+
+
+
+

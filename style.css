@@ -1,0 +1,129 @@
+/*************************************************Nav Starts ***************************************************/
+nav{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+nav img{
+    height: 100px;
+    width: 175px;
+    margin-right: 220px;
+}
+nav a{
+    color: #c9c9c8;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+a:hover{
+    color: black;
+    text-decoration: underline 3px #5545c0;
+}
+/*************************************************Nav Ends ***************************************************/
+
+/*************************************************Main Starts **************************************************/
+main h1{
+    display: inline-block;
+    font-weight: bolder;
+    flex-direction: row;
+}
+h1 p{
+    color: #5243c0;
+    display: inline-block;
+    flex-direction: row;
+}
+main h5{
+    display: inline-block;
+    flex-direction: row;
+}
+
+.mainpage{
+    width: 500px;
+    height: 400px;
+    float: inline-end;
+    flex-direction: column;
+    margin-top: 0;
+}
+.arrow img{
+    padding: 10px;
+}
+main{
+    margin: 50px 50px 0px 75px;
+}
+.box div{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 1px solid none;
+    border-radius: 15px;
+}
+.box div:hover{
+    box-shadow: 2px 2px 8px -5px black;
+}
+.box p,img,button{
+    display: inline-block;
+    padding: 20px;
+}
+.box #text{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 125px;
+}
+.box #btn1{
+    height: 0px;
+    width: 5px;
+    border-radius: 5px;
+    background-color: #5243c0;
+    margin-right: 20px;
+}
+.box #btn2{
+    height: 0px;
+    width: 5px;
+    border-radius: 5px;
+    background-color: #fd6534;
+    margin-right: 20px;
+}
+.box #btn3{
+    height: 0px;
+    width: 5px;
+    border-radius: 5px;
+    background-color: #9ed095;
+    margin-right: 20px;
+}
+.box #btn4{
+    height: 0px;
+    width: 5px;
+    border-radius: 5px;
+    background-color: #ffe4a0;
+    margin-right: 20px;
+}
+#tick1{
+    transition: 0.3s;
+}
+#tick1:hover{
+    content: url(tick-blue.png);
+}
+#tick2{
+    transition: 0.3s;
+}
+#tick2:hover{
+    content: url(tick-blue.png);
+}
+#tick3{
+    transition: 0.3s;
+}
+#tick3:hover{
+    content: url(tick-blue.png);
+}
+#tick4{
+    transition: 0.3s;
+}
+#tick4:hover{
+    content: url(tick-blue.png);
+}
+
+
+
+
+/*************************************************Main Ends ****************************************************/
+
